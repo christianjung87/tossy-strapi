@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shopping_pantry_articles",
+  "info": {
+    "name": "PantryArticles",
+    "icon": "cash-register"
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "model": "article"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

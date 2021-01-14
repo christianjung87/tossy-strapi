@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pantry-list",
+      "handler": "pantry-list.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pantry-list",
+      "handler": "pantry-list.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pantry-list",
+      "handler": "pantry-list.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

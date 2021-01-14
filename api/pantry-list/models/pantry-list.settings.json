@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "pantry_lists",
+  "info": {
+    "name": "PantryList"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Entry": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shopping.entry"
+    }
+  }
+}

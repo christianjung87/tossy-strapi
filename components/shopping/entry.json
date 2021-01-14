@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_ingredients_ingredients",
+  "collectionName": "components_shopping_entries",
   "info": {
-    "name": "Ingredient",
-    "icon": "carrot",
-    "description": ""
+    "name": "Entry",
+    "icon": "angle-double-right"
   },
   "options": {},
   "attributes": {
